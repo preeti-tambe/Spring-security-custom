@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.11</version>
+		<version>2.7.12</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>asterisc.in</groupId>
-	<artifactId>Spring-Security-Custom</artifactId>
+	<groupId>in.asterisc</groupId>
+	<artifactId>Day-13</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring-Security-Custom</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Day-13</name>
+	<description>Spring</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -35,6 +35,12 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-jasper</artifactId>
+			<version>9.0.12</version>
 		</dependency>
 	</dependencies>
 
